@@ -1,0 +1,420 @@
+body {
+    background-color: black;
+    color: beige; 
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.wrapper {
+    max-width: 1200px; 
+    margin: 0 auto; 
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 0; 
+  
+
+}
+
+nav .logo {
+    font-size: 24px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    
+    font-size: 24px;
+}
+
+.home li a {
+    margin-right: 20px;
+    text-decoration: none !important;
+    color:white;
+
+}
+.home li a:hover{
+    color: blue;
+}
+
+.txt {
+    color: beige;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}
+
+.titl,
+.titl1 {
+    color: beige;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px; 
+    font-weight: 500;
+    position: absolute;
+}
+
+.titl {
+    top: 100px;
+    left: 300px;
+}
+
+.titl1 {
+    top: 250px;
+    left: 400px;
+}
+
+.contaner1 img,
+.contaner2 img {
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.contaner1 img {
+    width: 500px;
+    height: 400px;
+    top: 140px;
+    left: 660px;
+}
+
+.contaner2 img {
+    width: 450px;;
+    height: 350px;
+    top: 385px;
+    left: 35px;
+}
+
+.qowt {
+    font-size: 18px; 
+    background-color: beige;
+    color: black;
+    padding: 16px 32px;
+    position: absolute;
+    left: 800px;
+    top: 650px;
+}
+
+.qowt:hover {
+    background-color: aqua;
+}
+.copyright{
+    position: absolute;
+    top: 800px;
+    left: 700px;
+}
+.copyrit{
+    position: absolute;
+    top: 2100px;
+    left: 700px;
+}
+.continer{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    margin: auto ;
+    display: flex;
+}
+.co1{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+
+}
+.co2{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+
+}
+.portfo{
+    color: beige;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px; 
+    font-weight: 500;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+}
+.port1 img{
+    width: 480px;;
+    height: 700px;
+    position: absolute;
+    top: 200px;
+    left:100px;
+}
+.port2 img{
+    width: 480px;;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left:650px;
+}
+.port3 img{
+    width: 480px;;
+    height: 550px;
+    position: absolute;
+    top: 950px;
+    left:100px;
+}
+.port4 img{
+    width: 480px;;
+    height: 850px;
+    position: absolute;
+    top: 650px;
+    left:650px;
+}
+.port5 img{
+    width: 480px;;
+    height: 500px;
+    position: absolute;
+    top: 1550px;
+    left:100px;
+}
+.port6 img{
+    width: 480px;;
+    height: 500px;
+    position: absolute;
+    top: 1550px;
+    left:650px;
+}
+.contine{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    margin: auto ;
+    display: flex;
+}
+.co3{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+
+}
+.co4{
+    width: 50%;
+    background-color: rgb(3, 3, 3);
+    height: auto;
+}
+.about{
+    color: beige;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px; 
+    font-weight: 500;
+    position: absolute;
+    top: 80px;
+    left: 550px;
+}
+.co5{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+.co6{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+.paragraph{
+    color: beige;
+    font-size: 20px;
+    position: absolute;
+    left:200px;
+    top: 300px;
+    text-align: start;
+}
+.aboutim1 img{
+    width: 459px;;
+    height: 530px;
+    position: absolute;
+    top: 260px;
+    left:700px; 
+}
+.TESTI{
+    color: beige;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px; 
+    font-weight: 500;
+    position: absolute;
+    top: 800px;
+    left: 400px;
+}
+.par1{
+    font-size: 17px;
+    position: absolute;
+    top: 880px;
+    left: 35px;
+    
+}
+.test3{
+    background-color: rgb(27, 32, 32);
+    width: 700px;;
+    height: 300px;
+    position: absolute;
+    top: 1040px;
+    left:50px;
+}
+.testi1 img{
+    width: 300px;;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+.para1 {
+    font-size: 25px;
+    position: absolute;
+    top: -20px;
+    left:350px;
+    text-align:start;
+
+}
+.para2{
+    font-size: 17px;
+    position: absolute;
+    top: 85px;
+    left:320px;
+    text-align: start;
+}
+.para3 a{
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    left:350px; 
+    text-decoration: none; 
+    color: beige;
+
+}
+.test4{
+    background-color: rgb(27, 32, 32);
+    width: 700px;;
+    height: 300px;
+    position: absolute;
+    top: 1400px;
+    left:50px;
+}
+.testi2 img{
+    width: 300px;;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left:400px;
+}
+.para4{
+    font-size: 28px;
+    position: absolute;
+    top: -10px;
+    left:10px;
+    text-align: start;
+}
+.para5{
+    
+    position: absolute;
+    top: 100px;
+    left:10px;
+    text-align: start;
+}
+.para6 a{
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    left:100px; 
+    text-decoration: none; 
+    color: beige;
+
+}
+.test5{
+    background-color: rgb(27, 32, 32);
+    width: 400px;;
+    height: 660px;
+    position: absolute;
+    top: 1040px;
+    left:800px;
+}
+.testi3 img{
+    width: 330px;;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+.para7{
+    font-size: 25px;
+    position: absolute;
+    top: 300px;
+    left:10px;
+    text-align: start;
+}
+.para8{
+    font-size:16px ;
+    position: absolute;
+    top: 400px;
+    left:40px;
+    text-align: start;
+
+}
+.para9 a{
+        font-size: 20px;
+        position: absolute;
+        top: 600px;
+        left:100px; 
+        text-decoration: none; 
+        color: beige;
+}
+.copyrighABOUT{
+    position: absolute;
+    top: 1800px;
+    left: 700px;
+}
+.contact label{
+    position: relative;
+    right: 230px;
+    
+}
+input{
+
+    outline: none;
+    width: 500px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 0px 0px 1.5px;
+    border: white solid 2px 0px 0px 0px;
+    
+
+}
+.contact{
+    position:absolute;
+    left: 350px;
+    top: 270px;
+}
+.copyrigcontact{
+    position: absolute;
+    top: 650px;
+    left: 700px;
+}
+.submit{
+    padding: 10px;
+    position: relative;
+    top: 250px;
+    left: 100px;
+
+}
+.submit:hover{
+    background-color: aqua;
+    
+}
+.art{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    top: -150px;
+    left: -500px;
+}
